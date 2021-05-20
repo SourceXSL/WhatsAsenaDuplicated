@@ -32,7 +32,7 @@ Asena.addCommand({pattern: 'alive', fromMe: true, deleteCommand: true,}, (async 
 
 var i = Math.floor(20*Math.random())
 var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '            *💢Sl Android💢* \n          ☢ *Offical Bot Service* ☢\n\n*Hosted* • ๛```Google Cloud```\n*Version* • ๛ ```'+Config.VERSION+'```\n*Branch* • ๛ ```'+Config.BRANCH+'```\n*Owner* ๛ Bumidu Sandeepa \n*Bot Owner* ๛ Asanga Udara \n✧ Sl Android\n\n **\n ```Thanks For your choosing bot```'})
+await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '            *💢SL Android💢* \n          ☢ *Offical Bot Service* ☢\n\n*Hosted* • ๛```Google Cloud```\n*Version* • ๛ ```'+Config.VERSION+'```\n*Branch* • ๛ ```'+Config.BRANCH+'```\n*Owner* ๛ Bumindu Sandeepa \n*Bot Owner* ๛ Bumindu Sandeepa & Asanga Udara \n✧ SL Android\n\n **\n ```Thanks For your choosing bot```'})
     }));
 }
 else if (Config.WORKTYPE == 'public') {
